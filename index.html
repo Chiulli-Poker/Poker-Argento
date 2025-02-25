@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bienvenido a PokerRun</h1>
+    <div id="game">
+        <button onclick="crearTorneo()">Crear Torneo</button>
+        <input type="text" id="codigoTorneo" placeholder="Código del torneo">
+        <button onclick="unirseTorneo()">Unirse</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
